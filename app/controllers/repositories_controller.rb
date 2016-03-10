@@ -2,9 +2,13 @@ class RepositoriesController < ApplicationController
   def index
     repos = Github.repos.list user: params[:user]
     repos_clean = []
-    repos.each do |r|
-      repos_clean << {name:r[:name], url:r[:html_url]}
+    repos.each_with_index do |r, i|
+      repos_clean << {
+        id: i,
+        type: 'repository',
+        attributes: {name:r[:name], url:r[:html_url]}
+      }
     end
-    render json: repos_clean
+    render json: {data: repos_clean}
   end
 end
