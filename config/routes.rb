@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   root 'wellcome#index'
 
   # Example of regular route:
-  get 'api/v1/:user/repositories' => 'repositories#index'
+  get 'api/v1/repositories' => 'repositories#index'
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
