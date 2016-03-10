@@ -1,9 +1,10 @@
 == README
 
-Little backend application that lists the github public repositories of a certain user.
+Little backend application that lists the github public repositories of a certain user, diegomichel in this case.
 
 
 * *run:* rails s
-* *usage:* http://localhost:3000/api/v1/diegomichel/repositories
+* *usage:* Run the front end found here [git-front](https://github.com/diegomichel/git-front)
 
-You can replace **diegomichel** with any github username
+You can replace *diegomichel* with any github username, which it is set at the emberjs application.
+
