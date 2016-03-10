@@ -3,7 +3,7 @@
 Little backend application that lists the github public repositories of a certain user.
 
 
-* **run:** rails s
-* **usage:** http://localhost:3000/api/v1/diegomichel/repositories
+* *run:* rails s
+* *usage:* http://localhost:3000/api/v1/diegomichel/repositories
 
 You can replace **diegomichel** with any github username
