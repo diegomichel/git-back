@@ -6,7 +6,7 @@ Little backend application that lists the github public repositories of a certai
 * *run:* rails s
 * *usage:* Run the front end found here:
 
-[git-front](https://github.com/diegomichel/git-front)
+git-front[https://github.com/diegomichel/git-front]
 
 You can replace *diegomichel* with any github username, which it is set at the emberjs application.
 
